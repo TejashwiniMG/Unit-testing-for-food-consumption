@@ -26,7 +26,7 @@ global flag
 def check1(a,b):
     if (a=="tejashwini@gmail.com" and b=="switchon"):
             flag=1
-           # print(flag)
+            print("TEST PASSED( Logged In)")
 
             #if flag==1:
         #real time data
@@ -69,7 +69,7 @@ def check1(a,b):
                  #  print(flag)
                # first_dboard.get_preview()
     else:
-              # print("Invalid credentials")
+               print("TEST PASSED(Invalid credentials)")
                flag=0
               # print(flag)
     return(flag)

@@ -30,7 +30,13 @@ class Testdata(unittest.TestCase):
             self.assertEqual(check1('tejashwini@gmail.com','swit'),0) 
         
         def testvalue2(self):
-            self.assertEqual(check1('tejashwini@switchon.com','switchon'),0)# with self.assertRaises(TypeError):# check that s.split fails when the separator is not a string
+            self.assertEqual(check1('tejashwini@switchon.com','switchon'),0)
+            
+        def testvalue3(self):
+            self.assertEqual(check1('tejashwini@g.com','switchon'),0)
+       
+        def testvalue4(self):
+            self.assertEqual(check1('tejashwini@gmail.com','switchon'),1)
             
 if __name__ == '__main__':
     unittest.main()
