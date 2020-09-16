@@ -41,7 +41,7 @@ class Testdata(unittest.TestCase):
        
         def testvalue4(self):
             print("Test case 5")
-            self.assertEqual(check1('tejashwini@gmail.com','switchon'),1)
+            self.assertEqual(check1('tejashwini@gmail.com','switchon'),0)
             
 if __name__ == '__main__':
     unittest.main()
