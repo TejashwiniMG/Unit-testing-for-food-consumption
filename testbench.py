@@ -19,8 +19,8 @@ class Testdata(unittest.TestCase):
           # s2 = 'switchon'
            # if s1== a :
              #   print("Pass")
-           # else:
-              #  print("fail")
+          
+             
                 
         def testvalue(self):
             print("Test case 1")
